@@ -17,4 +17,5 @@ Gem::Specification.new do |gem|
   
   
   gem.add_development_dependency 'rails', '>= 3.1'
+  gem.add_development_dependency 'twitter-bootstrap-rails', '>= 2.0.4'
 end

@@ -1,3 +1,4 @@
+//= require twitter/bootstrap/bootstrap-modal
 jQuery(function(){
   jQuery('.modal-me').prop('href','#');
   jQuery('.modal-me').click(function(){
