@@ -10,8 +10,13 @@ module ModalMeHelper
       options      = args[1] || {}
       html_options = args[2]
       modal_title = args[3] || name
-      html_options['data-title'] = modal_title
-      html_options['data-url'] = "#{options}.text"
+      
+
+      options = url_for(options) if !options.kind_of? String
+      
+      html_options['data-modalme-title'] = modal_title
+      html_options['data-modalme-url'] = "#{options}.text"
+      html_options['data-modalme-title'] = modal_title
       return link_to(name, options, html_options)
     end
   end
