@@ -25,7 +25,7 @@ Add
 in your view
 
     // the format is almost same as link_to except that the last argument is the title of the modal
-    <%= modal_me_to 'Edit', edit_user_path(user), {:class=>'btn btn-primary modal-item'}, "Edit User" %>
+    <%= modal_me_to 'Edit', edit_user_path(user), {:class=>'btn btn-primary'}, "Edit User" %>
 
 in your controller:
 
@@ -38,6 +38,13 @@ in your controller:
     end
 
 This will return you the modal without the page layout.
+
+
+
+in your layout add:
+
+    render 'shared/modal_me'
+
 
 ## Contributing
 
