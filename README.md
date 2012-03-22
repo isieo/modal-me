@@ -39,6 +39,13 @@ in your controller:
 
 This will return you the modal without the page layout.
 
+
+
+in your layout add:
+
+    render 'shared/modal_me'
+
+
 ## Contributing
 
 1. Fork it
