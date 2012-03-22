@@ -2,11 +2,11 @@
 require File.expand_path('../lib/modal-me/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.authors       = ["Calvin Tee"]
+  gem.email         = ["calvin@collectskin.com"]
+  gem.description   = %q{Easily create a modal for your existing views using javascript requests}
+  gem.summary       = %q{Easily create a modal for your existing views using javascript requests}
+  gem.homepage      = "http://collectskin.com"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -14,4 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "modal-me"
   gem.require_paths = ["lib"]
   gem.version       = Modal::Me::VERSION
+  
+  
+  gem.add_development_dependency 'rails', '>= 3.1'
 end
