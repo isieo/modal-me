@@ -1,7 +1,10 @@
 # Modal::Me
  A simple gem to use bootstrap's modal for actions in rails.
- Note that i am using Bootstrap for the modal window. if you don't use bootstrap
- just ommit bootstrap's css and write your own css.
+ 
+ Note that i am using Bootstrap for the modal window.
+ 
+ if you don't use bootstrap just ommit bootstrap's css and write your own css.
+ 
  See app/views/shared/_modal_me.html.erb for the html markup
 
 ## Installation
