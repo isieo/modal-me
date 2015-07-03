@@ -1,17 +1,16 @@
 # Modal::Me
  A simple gem to use bootstrap's modal for actions in rails.
- 
+
  Note that i am using Bootstrap for the modal window.
- 
+
  if you don't use bootstrap just ommit bootstrap's css and write your own css.
- 
+
  See app/views/shared/_modal_me.html.erb for the html markup
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem "twitter-bootstrap-rails"
     gem 'modal-me', git: 'git@github.com:isieo/modal-me.git'
 
 And then execute:

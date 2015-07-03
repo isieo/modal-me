@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Modal::Me::VERSION
   
-  
-  gem.add_development_dependency 'rails', '>= 3.1'
+
+  gem.add_development_dependency 'rails', '>= 4.0'
   # gem.add_development_dependency 'twitter-bootstrap-rails', '>= 2.0.4'
 end
